@@ -1,14 +1,29 @@
 import React, { Component } from "react"
-import style from "./Name.scss"
+import { Grid, Row, Col } from "react-bootstrap"
+import "./Name.css"
+
+
+const copy = "MICHELLE SHIN".split('')
+const display = copy.map(copy => {
+    return copy + " "
+})
 
 export default class Name extends Component {
-    render(){
-        return(
-            <div className={style.root}>
-                <div className={style.barTop}/>
-                    <h1> Michelle </h1>
-                <div className={style.barBottom}/>
-            </div>
+    render() {
+        return (
+            <Grid>
+                <Row className="break">
+                    <Col md="3" className="col" />
+                    <Col md="6" className="col">
+                        <div className="barTop" />
+                        <div className="name">
+                            {display}
+                        </div>
+                        <div className="barBottom" />
+                    </Col>
+                    <Col md="3" className="col" />
+                </Row>
+            </Grid>
         )
     }
 }
