@@ -1,0 +1,30 @@
+
+p {
+    font-size: 20px;
+}
+h3{
+    font-size: 28px;
+}
+h4{
+    font-size: 24px;
+}
+.mepic {
+    border-radius: 50%;
+    height: 325px;
+    width:300px;
+    margin: auto;
+    margin-top: 9vh;
+    padding: 0;
+    border: 1px black solid;
+}
+.writing {
+    text-align: left;
+}
+.indent{ 
+    margin-left: 3vh
+}
+.indent2{
+    margin-left: 5vh;
+    font-size: 16px
+}
+

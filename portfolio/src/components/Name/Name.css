@@ -1,5 +1,6 @@
 .break{ 
-    margin-top: 23vh
+    margin-top: 23vh;
+    margin-bottom: 40vh;
 }
 
 .name {
@@ -9,6 +10,9 @@
     font-size: 5.9em;
     padding-left: 40px;
     padding-right: 40px;
+}
+p {
+    font-family: 'Archivo Narrow', sans-serif;
 }
 .barTop{
     /* margin-left: 3em; */

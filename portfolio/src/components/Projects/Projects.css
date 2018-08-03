@@ -1,0 +1,18 @@
+
+.divider2{
+    border-top: 0.3em solid black;
+    width: 90%;
+    margin: 8vh auto;
+}
+.stuff{
+    margin-top: 5vh;
+}
+.indent3{
+    margin-left: 5vh;
+
+}
+.projectpics {
+    width: 250px;
+    height: 200px;
+    border-radius: 20px;
+}
